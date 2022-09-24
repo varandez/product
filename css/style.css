@@ -1,8 +1,25 @@
 :root {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-size: 1.3em;
-    line-height: 1.6;
+    line-height: 1.2;
 }
+
+a:link {
+    color: #272A2E;
+    border-bottom: 0.1px solid;
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-bottom: 1px solid;
+
+  }
+  
+  a:visited {
+    color: #272A2E;
+  }
+  
+
 .container {
   display: grid;
   justify-content: space-between;
@@ -24,13 +41,12 @@
 .header__subtitle {
   margin: 0;
   font-size: 1.3em;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 
 .articles {
   width: 100%;
-  align-self: stretch;
   }
 
 
@@ -65,8 +81,8 @@ margin: 0;
 }
 
 .articles__list-item {
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   }
 
 body {
@@ -78,24 +94,4 @@ body {
     color: #272A2E;
 }
 
-a:link {
-    color: #272A2E;
-    border-bottom: 1px solid;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: #272A2E;
-  }
-  
-  a:focus {
-  }
-  
-  a:hover {
-
-  }
-  
-  a:active {
-
-  }
 
