@@ -104,6 +104,16 @@ margin: 0;
   padding-bottom: 7px;
   }
 
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .social__link {
+    align-self: flex-start;
+  }
+
 
 
 
