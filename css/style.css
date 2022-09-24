@@ -61,8 +61,8 @@ a:link {
     margin: 0;
     font-size: 1.3em;
     font-weight: 600;
-    padding: 3px 15px;
-    
+    padding: 7px 15px;
+    border-radius: 10px;
 }
 
 .primary {
