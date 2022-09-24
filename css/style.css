@@ -4,6 +4,14 @@
     line-height: 1.2;
 }
 
+body {
+  margin: 5vh auto;
+  max-width: 1440px;
+  width: 80vw;
+  min-width: min(500px, 90vw);
+  background: #ffffff;
+}
+
 a:link {
     color: #272A2E;
     border-bottom: 0.1px solid;
@@ -12,7 +20,6 @@ a:link {
 
   a:hover {
     border-bottom: 1px solid;
-
   }
   
   a:visited {
@@ -59,7 +66,7 @@ a:link {
 }
 
 .primary {
-  background-color: red;
+  background-color: #cccccc;
 }
 
 .secondary {
@@ -85,13 +92,6 @@ margin: 0;
   padding-bottom: 7px;
   }
 
-body {
-    margin: 5vh auto;
-    max-width: 1440px;
-    width: 80vw;
-    min-width: min(500px, 90vw);
-    background: #ffffff;
-    color: #272A2E;
-}
+
 
 
