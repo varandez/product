@@ -39,7 +39,15 @@
     font-size: 1.3em;
     font-weight: 600;
     padding: 3px 15px;
-    background-color: #FEDD2D;
+    
+}
+
+.primary {
+  background-color: #ABFF56;
+}
+
+.secondary {
+  background-color: #FDDA43;
 }
 
 .articles__subtitle {
