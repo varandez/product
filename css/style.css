@@ -2,6 +2,11 @@
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-size: 1.3em;
     line-height: 1.2;
+    --bg-color: #fff;
+    --text-color: #272A2E;
+    --bg-title-primary: #ABFF56;
+    --bg-title-secondary: #FDDA43;
+    --border-link: #ccc;
 }
 
 body {
@@ -9,8 +14,8 @@ body {
   max-width: 1440px;
   width: 95vw;
   min-width: min(500px, 90vw);
-  background: #ffffff;
-  color: #272A2E;
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 @media (max-width: 768px) {
@@ -20,19 +25,19 @@ body {
 }
 
 a:link {
-    color: #272A2E;
+    color: var(--text-color);
     text-decoration: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--border-link);
     line-height: 1.2;
   }
 
   a:visited {
-    color: #272A2E;
-    border-bottom: 1px solid #ccc;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--border-link);
   }
 
   a:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--text-color);
   }
   
 
@@ -81,11 +86,11 @@ a:link {
 }
 
 .primary {
-  background-color: #ABFF56;
+  background-color: var(--bg-title-primary);
 }
 
 .secondary {
-  background-color: #FDDA43;
+  background-color: var(--bg-title-secondary);
 }
 
 .articles__subtitle {
