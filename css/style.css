@@ -10,6 +10,7 @@ body {
   width: 95vw;
   min-width: min(500px, 90vw);
   background: #ffffff;
+  color: #272A2E;
 }
 
 @media (max-width: 768px) {
@@ -26,7 +27,7 @@ a:link {
   }
 
   a:hover {
-    border-bottom: 1.5px solid #000;
+    border-bottom: 1.5px solid #272A2E;
   }
   
   a:visited {
